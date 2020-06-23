@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+.vscode
+*hot-update.json
+*hot-update.js
+*hot-update.js.map
+docs/_next/static/development
