@@ -8,7 +8,7 @@ import TypoTitle from "../components/typo/TypoTitle";
 import TypoText from "../components/typo/TypoText";
 import LanguageOutlinedIcon from "@material-ui/icons/LanguageOutlined";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import ListAltIcon from '@material-ui/icons/ListAlt';
+import ListAltIcon from "@material-ui/icons/ListAlt";
 
 const useStyles = makeStyles({
   button: {
@@ -25,15 +25,24 @@ export default () => {
         <GridType5t7i
           text={
             <Fade bottom cascade>
-              <TypoTitle component="h1">Spolu za život!</TypoTitle>
+              <TypoTitle component="h1">Spolu za život</TypoTitle>
               <TypoText>
-                V pátek 4. září se můžeš těšit na spousty různých workshopů,
-                živou i neživou muziku, výborné jídlo, překvapení, a hlavně dobrou
-                atmosféru!
+                Ocitáme se v globální krizi. Nespočet lidí a zvířat umírá,
+                ekonomika se hroutí.
               </TypoText>
               <TypoText>
-                V sobotu 5. září bude probíhat globální akce Web of Lies a i my
-                jako Animal Rebellion Česká Republika budeme její součástí.
+                Chov zvířat a rybolov nadále vede k ekologickému kolapsu,
+                přináší další pandemie a nadále zabíjí biliony zvířat.
+              </TypoText>
+              <TypoText>
+                Klimatická krize přinese ještě více devastace, sucha, požáry,
+                extrémní počasí a nedostatek potravin, což dopadne zejména na
+                rasově marginalizované komunity.
+              </TypoText>
+              <TypoText>
+                Vláda selhává v tom, co je potřeba udělat, aby nás chránila.
+                Ignorují varování odborníků o oteplení planety o 4˚C. Varování,
+                které bude vést k miliardám úmrtí.
               </TypoText>
               <Button
                 variant="contained"
@@ -55,7 +64,7 @@ export default () => {
                 target="_blank"
                 href="https://www.facebook.com/events/624443378484742/"
               >
-                Událost: Rebelujme Spolu za život
+                Událost: Spolu za život
               </Button>
               <Button
                 variant="contained"
@@ -66,16 +75,16 @@ export default () => {
                 target="_blank"
                 href="https://forms.gle/mq9cYgBHNofwrfDT7/"
               >
-                Google Form: Chci být v AKCI!
+                Formulář: Chci se zapojit!
               </Button>
             </Fade>
           }
           image={
             <LazyImage
-              imgSmWebp={require("../public/img/ar8sm.jpg?webp")}
-              imgSmJpeg={require("../public/img/ar8sm.jpg")}
-              imgXsWebp={require("../public/img/ar8xs.jpg?webp")}
-              imgXsJpeg={require("../public/img/ar8xs.jpg")}
+              imgSmWebp={require("../public/img/ar9sm.jpg?webp")}
+              imgSmJpeg={require("../public/img/ar9sm.jpg")}
+              imgXsWebp={require("../public/img/ar9xs.jpg?webp")}
+              imgXsJpeg={require("../public/img/ar9xs.jpg")}
               alt="Spolu za Život! Rebeluj! 4-5.9.2020"
             />
           }
