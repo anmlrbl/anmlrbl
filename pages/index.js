@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import HeadBase from "../components/HeadBase";
+import Index_Campaign from "../pages_ext/Index_Campaign";
 import Index_Banner from "../pages_ext/Index_Banner";
 import Index_Main from "../pages_ext/Index_Main";
 import Index_EatFuture from "../pages_ext/Index_EatFuture";
@@ -19,8 +20,9 @@ export default () => {
   const router = useRouter()
   
   return (
-    <Layout navchange>
+    <Layout>
       <HeadBase head={head} path={router.pathname} />
+      <Index_Campaign />
       <Index_Banner />
       <Index_Main />
       <Index_EatFuture />

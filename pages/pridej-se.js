@@ -15,7 +15,7 @@ import { useRouter } from "next/router";
 const head = {
   title: "Přidej se | Animal Rebellion Česká republika",
   description: "Možností jak se zapojit je mnoho, ale nejlepší je se přidat do Otevřené skupiny Animal Rebellion.",
-  ogUrl: "https://animalrebellion.cz/kultura",
+  ogUrl: "https://animalrebellion.cz/pridej-se",
   ogImage: "https://animalrebellion.cz" + require("../public/head/index.jpg"),
 }
 

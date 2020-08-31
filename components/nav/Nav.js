@@ -98,6 +98,14 @@ export default function Nav(props) {
           <div className={classes.grow} />
           <div>
             <Hidden xsDown>
+              <Button
+                component={NextLink}
+                href="/media"
+                color="inherit"
+                className={classes.item}
+              >
+                Média
+              </Button>
               <Hidden smDown>
                 <Button
                   component={NextLink}
@@ -107,15 +115,15 @@ export default function Nav(props) {
                 >
                   informace
                 </Button>
+                <Button
+                  component={NextLink}
+                  href="/kontakt"
+                  color="inherit"
+                  className={classes.item}
+                >
+                  Kontakt
+                </Button>
               </Hidden>
-              <Button
-                component={NextLink}
-                href="/kontakt"
-                color="inherit"
-                className={classes.item}
-              >
-                Kontakt
-              </Button>
               <Button
                 component={NextLink}
                 href="/pridej-se"
