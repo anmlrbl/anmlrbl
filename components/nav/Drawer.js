@@ -94,6 +94,7 @@ export default function DrawerLeft(props) {
     >
       <MyListItem text="Animal Rebellion" href="/" />
       <Divider />
+      <MyListItem text="Média" href="/media" />
       <MyListItem text="Kontakt" href="/kontakt" />
       <Divider />
       <MyListItem
