@@ -22,7 +22,6 @@ export default () => {
   return (
     <Layout>
       <HeadBase head={head} path={router.pathname} />
-      <Index_Campaign />
       <Index_Banner />
       <Index_Main />
       <Index_EatFuture />
