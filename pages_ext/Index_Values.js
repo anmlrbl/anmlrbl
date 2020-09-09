@@ -97,8 +97,8 @@ export default () => {
             <Fade bottom cascade>
               <TypoTitle color="secondary">Naše Hodnoty</TypoTitle>
               <TypoText>
-                Každý, kdo jedná v zásadě s našimi hodnotami, cíli a
-                strategii, může jednat ve jménu Animal Rebellion.
+                Každý, kdo jedná v zásadě s našimi hodnotami, cíli a strategii,
+                může jednat ve jménu Animal Rebellion.
               </TypoText>
               <TypoText
                 variant="h5"
@@ -128,48 +128,48 @@ export default () => {
         <GridRow spacing={2} justify="flex-start">
           <CardCol
             number={1}
-            title="Jsme anti-spieciesistické hnutí se společnou vizi změny"
+            title="Jsme anti-speciesistické hnutí se společnou vizi změny"
             text="Vytváříme svět, který ochraňuje všechny druhy."
           />
           <CardCol
             number={2}
-            title="Soustředíme se na to, co je nutné"
-            text="Mobilizováním 3.5% populace cílíme na systémovou změnu."
+            title="Naše poslání vychází z toho, co je nezbytné"
+            text="Nikoli z toho, co je možné. Mobilizací 3,5 % populace (pomocí dynamických metod organizace) se budeme snažit prosadit změnu systému."
           />
           <CardCol
             number={3}
             title="Vyzdvihujeme potřebu regenerativní kultury"
-            text="Vytváříme kulturu, která je udržitelná, zdravá a adaptabilní."
+            text="Vytváříme životaschopnou, odolnou kulturu, která pohotově reaguje na změny."
           />
           <CardCol
             number={4}
-            title="Překonáváme se"
-            text="Vědomě vystupujeme z našich komfortních zón k dosažení systémové změny."
+            title="Překonáváme se, abychom překonali i současný toxický systém"
+            text="O systémové změny usilujeme tak, že vystupujeme z vlastních komfortních zón."
           />
           <CardCol
             number={5}
             title="Vážíme si reflexe a učení"
-            text="Všechno děláme v cyklu plánování-akce-reflexe-učení."
+            text="Postupujeme v cyklu: akce, reflexe, poučení, plánování další akce. Učíme se od jiných hnutí i ze svých vlastních zkušeností."
           />
           <CardCol
             number={6}
-            title="Přijímáme každého takového, jaký je"
-            text="Vytváříme prostředí a podmínky pro efektivní spolupráci."
+            title="Všechny přijímáme takové, jací jsou"
+            text="Aktivně pracujeme na vytváření bezpečnějšího a vstřícnějšího prostředí."
           />
           <CardCol
             number={7}
             title="Aktivně redukujeme moc"
-            text="Rozbíjíme hierarchii moci pro rovnocennou spolupráci."
+            text="Rozbíjíme mocenské hierarchie, abychom tak zajistili spravedlivější zapojení do činnosti."
           />
           <CardCol
             number={8}
-            title="Neobviňujeme a nezostuzujeme"
-            text="Stud a vina u nás nemá místo!"
+            title="Nikoho neobviňujeme ani nezostuzujeme"
+            text="Žijeme v toxickém systému, avšak neviníme z toho žádného jednotlivce."
           />
           <CardCol
             number={9}
-            title="V nenásilí je naše síla"
-            text="Jsme striktně nenásilné hnutí, protože tuto strategii vnímáme jako nejefektivnějši cestu ke změne."
+            title="Jsme nenásilné hnutí"
+            text="Používáme nenásilnou strategii jakožto nejefektivnější cestu ke změně."
           />
           <CardCol
             number={10}
